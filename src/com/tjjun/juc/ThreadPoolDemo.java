@@ -30,7 +30,7 @@ public class ThreadPoolDemo {
                 new ThreadPoolExecutor.DiscardOldestPolicy()//抛弃等待时间最久的任务
         );
         try {
-            for (int i=1;i<=40;i++){
+            for (int i=1;i<=20;i++){
                 /*try {
                     TimeUnit.SECONDS.sleep(1);
                 } catch (InterruptedException e) {

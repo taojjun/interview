@@ -42,7 +42,7 @@ public class SaleTicketDemo1 {
 }
 
 class Ticket{
-    int num = 300;
+    int num = 5;
     Lock lock = new ReentrantLock();
 
     public void sale() {

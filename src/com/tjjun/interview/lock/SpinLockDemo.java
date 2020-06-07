@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicReference;
  * @author taojjun
  * @Title:
  * @Package com.tjjun.interview.lock
- * @Description:
+ * @Description:自旋锁
  * @date 2020/5/2711:06
  */
 public class SpinLockDemo {
